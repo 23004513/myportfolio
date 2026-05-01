@@ -7,9 +7,8 @@ function Hero() {
       <img
   src="/me.png"
   alt="Navya"
-  className="w-52 h-52 md:w-72 md:h-72 rounded-full border-4 border-purple-500 mb-10 shadow-[0_0_60px_rgba(168,85,247,0.8)] object-cover object-top hover:scale-105 transition-all duration-500"
+  className="w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-purple-500 mb-8 mt-8 shadow-[0_0_50px_rgba(168,85,247,0.8)] object-cover object-top hover:scale-105 transition-all duration-500"
 />
-
       <h1 className="text-6xl md:text-7xl font-bold mb-6">
         Hi, I'm <span className="text-purple-400">Navya Sree</span>
       </h1>
