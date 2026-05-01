@@ -7,7 +7,7 @@ function Hero() {
       <img
   src="/me.png"
   alt="Navya"
-  className="w-72 h-72 md:w-96 md:h-96 rounded-full border-4 border-purple-500 mb-10 shadow-[0_0_80px_rgba(168,85,247,0.9)] object-cover hover:scale-105 transition-all duration-500"
+ className="w-72 h-72 md:w-[430px] md:h-[430px] rounded-full border-4 border-purple-500 mb-10 shadow-[0_0_80px_rgba(168,85,247,0.9)] object-cover object-top hover:scale-105 transition-all duration-500 p-2 bg-[#111827]"
 />
 
       <h1 className="text-6xl md:text-7xl font-bold mb-6">
@@ -28,9 +28,13 @@ function Hero() {
         className="text-2xl md:text-3xl text-gray-300 font-semibold"
       />
 
-      <button className="mt-10 px-8 py-3 bg-purple-600 rounded-xl hover:scale-110 hover:bg-purple-700 transition-all duration-300 shadow-[0_0_25px_rgba(168,85,247,0.6)]">
-        Download Resume
-      </button>
+      <a
+  href="/navya sree resume.pdf"
+  download
+  className="mt-10 px-8 py-3 bg-purple-600 rounded-xl hover:scale-110 hover:bg-purple-700 transition-all duration-300 shadow-[0_0_25px_rgba(168,85,247,0.6)] inline-block"
+>
+  Download Resume
+</a>
 
     </section>
   )
