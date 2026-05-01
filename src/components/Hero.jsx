@@ -7,7 +7,7 @@ function Hero() {
       <img
   src="/me.png"
   alt="Navya"
- className="w-72 h-72 md:w-[430px] md:h-[430px] rounded-full border-4 border-purple-500 mb-10 shadow-[0_0_80px_rgba(168,85,247,0.9)] object-cover object-top hover:scale-105 transition-all duration-500 p-2 bg-[#111827]"
+  className="w-52 h-52 md:w-72 md:h-72 rounded-full border-4 border-purple-500 mb-10 shadow-[0_0_60px_rgba(168,85,247,0.8)] object-cover object-top hover:scale-105 transition-all duration-500"
 />
 
       <h1 className="text-6xl md:text-7xl font-bold mb-6">
