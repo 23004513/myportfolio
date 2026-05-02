@@ -4,9 +4,22 @@ function Hero() {
   return (
     <section className="min-h-screen bg-gradient-to-b from-black via-[#0f172a] to-black text-white px-8 md:px-20 flex items-center">
 
-      <div className="max-w-7xl mx-auto w-full flex flex-col-reverse md:flex-row items-center justify-between gap-16">
+      <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center justify-between gap-16">
 
-        {/* LEFT SIDE CONTENT */}
+        {/* LEFT SIDE IMAGE */}
+        <div className="relative">
+
+          <div className="absolute inset-0 bg-purple-500 blur-3xl opacity-30 rounded-full"></div>
+
+          <img
+            src="/me.png"
+            alt="Navya"
+            className="relative w-72 h-72 md:w-[380px] md:h-[380px] rounded-full border-4 border-purple-500 object-cover object-top shadow-[0_0_80px_rgba(168,85,247,0.7)] hover:scale-105 transition-all duration-500"
+          />
+
+        </div>
+
+        {/* RIGHT SIDE CONTENT */}
         <div className="text-center md:text-left">
 
           <p className="text-purple-400 text-xl mb-4 font-semibold">
@@ -56,19 +69,6 @@ function Hero() {
             </a>
 
           </div>
-
-        </div>
-
-        {/* RIGHT SIDE IMAGE */}
-        <div className="relative">
-
-          <div className="absolute inset-0 bg-purple-500 blur-3xl opacity-30 rounded-full"></div>
-
-          <img
-            src="/me.png"
-            alt="Navya"
-            className="relative w-72 h-72 md:w-[380px] md:h-[380px] rounded-full border-4 border-purple-500 object-cover object-top shadow-[0_0_80px_rgba(168,85,247,0.7)] hover:scale-105 transition-all duration-500"
-          />
 
         </div>
 
