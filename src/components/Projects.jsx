@@ -19,7 +19,7 @@ function Projects() {
           <div className="h-56 bg-gradient-to-r from-purple-900 to-black flex items-center justify-center">
 
             <h1 className="text-4xl font-bold text-purple-300 text-center px-6">
-              Virtual Brain Twin
+              Virtual Brain Twin 
             </h1>
 
           </div>
@@ -58,7 +58,7 @@ function Projects() {
             <div className="flex gap-4 flex-wrap">
 
               <a
-                href="https://github.com/"
+                href="https://github.com/23004513/Virtual-Brain-Twin-for-Personalized-Treatment-of-Psychiatric-Disorders"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-purple-600 rounded-xl hover:bg-purple-700 transition duration-300"
