@@ -32,7 +32,7 @@ function Hero() {
 
           <TypeAnimation
             sequence={[
-              "FrontEnd Stack Developer",
+              "FrontEnd Developer",
               2000,
               "DSA Enthusiast",
               2000,
