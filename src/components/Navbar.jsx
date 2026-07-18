@@ -8,41 +8,55 @@ function Navbar() {
 
       <ul className="flex gap-8 text-lg">
 
-        <a href="#about">
-          <li className="hover:text-purple-400 cursor-pointer transition duration-300">
+        <li>
+          <a
+            href="#about"
+            className="hover:text-purple-400 transition duration-300"
+          >
             About
-          </li>
-        </a>
+          </a>
+        </li>
 
-        <a href="#skills">
-          <li className="hover:text-purple-400 cursor-pointer transition duration-300">
+        <li>
+          <a
+            href="#skills"
+            className="hover:text-purple-400 transition duration-300"
+          >
             Skills
-          </li>
-        </a>
+          </a>
+        </li>
 
-        <a href="#projects">
-          <li className="hover:text-purple-400 cursor-pointer transition duration-300">
+        <li>
+          <a
+            href="#projects"
+            className="hover:text-purple-400 transition duration-300"
+          >
             Projects
-          </li>
-        </a>
+          </a>
+        </li>
 
-        {/* NEW */}
-        <a href="#experience">
-          <li className="hover:text-purple-400 cursor-pointer transition duration-300">
+        <li>
+          <a
+            href="#experience"
+            className="hover:text-purple-400 transition duration-300"
+          >
             Experience
-          </li>
-        </a>
+          </a>
+        </li>
 
-        <a href="#contact">
-          <li className="hover:text-purple-400 cursor-pointer transition duration-300">
+        <li>
+          <a
+            href="#contact"
+            className="hover:text-purple-400 transition duration-300"
+          >
             Contact
-          </li>
-        </a>
+          </a>
+        </li>
 
       </ul>
 
     </nav>
-  )
+  );
 }
 
 export default Navbar;
