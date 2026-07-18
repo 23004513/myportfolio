@@ -40,15 +40,6 @@ function Skills() {
 
         <div className="bg-gradient-to-br from-[#111827] to-[#1e1b4b] border border-purple-500/40 rounded-3xl p-10 text-center hover:-translate-y-4 hover:scale-105 transition-all duration-500 shadow-[0_0_25px_rgba(168,85,247,0.2)] hover:shadow-[0_0_50px_rgba(168,85,247,0.5)]">
           <h3 className="text-3xl font-bold text-purple-400 mb-4">
-            React.js
-          </h3>
-          <p className="text-gray-300">
-            Building modern frontend applications
-          </p>
-        </div>
-
-        <div className="bg-gradient-to-br from-[#111827] to-[#1e1b4b] border border-purple-500/40 rounded-3xl p-10 text-center hover:-translate-y-4 hover:scale-105 transition-all duration-500 shadow-[0_0_25px_rgba(168,85,247,0.2)] hover:shadow-[0_0_50px_rgba(168,85,247,0.5)]">
-          <h3 className="text-3xl font-bold text-purple-400 mb-4">
             Java
           </h3>
           <p className="text-gray-300">
@@ -58,21 +49,12 @@ function Skills() {
 
         <div className="bg-gradient-to-br from-[#111827] to-[#1e1b4b] border border-purple-500/40 rounded-3xl p-10 text-center hover:-translate-y-4 hover:scale-105 transition-all duration-500 shadow-[0_0_25px_rgba(168,85,247,0.2)] hover:shadow-[0_0_50px_rgba(168,85,247,0.5)]">
           <h3 className="text-3xl font-bold text-purple-400 mb-4">
-            Data Structures & Algorithms
+            Data Structures 
           </h3>
           <p className="text-gray-300">
-            Problem-solving using data structures & algorithms
+            Problem-solving using data structures 
           </p>
         </div>
-
-       <div className="bg-gradient-to-br from-[#111827] to-[#1e1b4b] border border-purple-500/40 rounded-3xl p-10 text-center hover:-translate-y-4 hover:scale-105 transition-all duration-500 shadow-[0_0_25px_rgba(168,85,247,0.2)] hover:shadow-[0_0_50px_rgba(168,85,247,0.5)]">
-  <h3 className="text-3xl font-bold text-purple-400 mb-4">
-    C Programming
-  </h3>
-  <p className="text-gray-300">
-    Strong foundation in programming and problem solving
-  </p>
-</div>
 
         <div className="bg-gradient-to-br from-[#111827] to-[#1e1b4b] border border-purple-500/40 rounded-3xl p-10 text-center hover:-translate-y-4 hover:scale-105 transition-all duration-500 shadow-[0_0_25px_rgba(168,85,247,0.2)] hover:shadow-[0_0_50px_rgba(168,85,247,0.5)]">
   <h3 className="text-3xl font-bold text-purple-400 mb-4">

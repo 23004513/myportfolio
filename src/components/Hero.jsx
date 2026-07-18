@@ -54,7 +54,7 @@ function Hero() {
           <div className="flex flex-wrap gap-6 mt-10 justify-center md:justify-start">
 
             <a
-              href="/navya_resume.pdf"
+              href="/resume.pdf"
               download
               className="px-8 py-3 bg-purple-600 rounded-xl hover:scale-105 hover:bg-purple-700 transition-all duration-300 shadow-[0_0_25px_rgba(168,85,247,0.6)]"
             >
