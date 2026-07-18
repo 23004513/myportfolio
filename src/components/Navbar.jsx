@@ -26,6 +26,13 @@ function Navbar() {
           </li>
         </a>
 
+        {/* NEW */}
+        <a href="#experience">
+          <li className="hover:text-purple-400 cursor-pointer transition duration-300">
+            Experience
+          </li>
+        </a>
+
         <a href="#contact">
           <li className="hover:text-purple-400 cursor-pointer transition duration-300">
             Contact
@@ -38,4 +45,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;
